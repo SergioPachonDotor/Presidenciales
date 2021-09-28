@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vote</title>
+    </head>
+    <body>
+        <center>
+            <h1>Register Your Vote</h1>
+                <p>Please be responsible for your vote.</p>
+
+            <form action="reto_1" method="get">
+                <p>Name: <input type="text" name="name" size="40" required></p>
+                <p>Birth Date: <input type="date" name="born" min="1900" required></p>
+                <p>CC: <input type="number" name="CitizenID" min="0000000000" required></p>
+                <p>Gender:
+                    <input type="radio" name="gender" value="m" required> Male
+                    <input type="radio" name="gender" value="f" required> Female
+                    <input type="radio" name="gender" value="o" required> Other
+                </p>
+                <p>Vote:
+                    <select id="Select-Candidate" name="Vote">
+                        <option value="Petrosky"> Lord Petrosky </option>
+                        <option value="Fajardini"> Fajardini </option>
+                        <option value="Martuchis"> Martuchis </option>
+                        <option value="RodolfoXD"> Rodolfo XD </option>
+                </p>
+                <p>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </p>
+            </form>
+        
+        </center>
+        <center>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div onclick=location.href="presidenciales.html" >
+                <input type="submit" value="Return To Main Page">
+            </div>
+            
+          </center>
+    </body>
+</html>

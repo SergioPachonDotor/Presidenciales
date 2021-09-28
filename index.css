@@ -1,0 +1,28 @@
+/* .navbar {
+    padding: 1.5rem 1rem;
+} */
+
+.text-vote{
+    font-weight: 500 !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header img {
+    width: 50px;
+}
+
+#header{
+    background: linear-gradient(90deg, #469194, #237d80, 25%, #237d80);
+}
+
+#footer{
+    background: linear-gradient(90deg, #469194, #237d80, 25%, #237d80);
+}
+
+#footer a{
+    color: white;
+}
+
